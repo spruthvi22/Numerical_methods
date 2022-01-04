@@ -15,7 +15,7 @@ def main() :
     ax[0].set_xlabel('-- x -->')
     ax[0].set_xticks(np.arange(0.0,1.1,0.1))
     ax[0].set_ylabel('-- Frequency of x -->')
-    ax[0].set_title('Distribution of 1000 samples from a Uniform Distribution over [1,1)')
+    ax[0].set_title('Distribution of 1000 samples from a Uniform Distribution over [0,1)')
 
     ax[1].hist(normal,rwidth=0.95,color='forestgreen')
     ax[1].grid()
