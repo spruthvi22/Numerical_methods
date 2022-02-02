@@ -8,7 +8,6 @@ def f(x) :
 def main() :
     N=100
     dx=1/N
-    print(dx)
     left_int,right_int,mid_int=0.0,0.0,0.0
     lefts=np.linspace(0,1-dx,N)
     rights=np.linspace(dx,1,N)
